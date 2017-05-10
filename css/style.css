@@ -1,0 +1,144 @@
+h1 {
+  font-size: 4em;
+  color: #000000;
+  text-align: center; }
+
+h3 {
+  font-size: 2em;
+  color: #000000;
+  text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1.3em; }
+
+body {
+  font-family: "Acumin Pro ExtraCondensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background: #fafafa;
+  color: #ffffff;
+  width: 100%; }
+
+header {
+  margin-top: 3em; }
+
+.main-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 3em; }
+
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  float: left; }
+
+.child {
+  height: 200px;
+  width: 25%; }
+
+.child-shadow {
+  height: 100px;
+  width: 300px; }
+
+.hat-title-box {
+  height: 50px;
+  width: 300px; }
+  .hat-title-box h3 {
+    padding-top: 1em; }
+
+.hats {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  cursor: crosshair; }
+
+.hats2 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  animation-name: floatv2;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  cursor: default; }
+
+@keyframes float {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(6px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes floatv2 {
+  0% {
+    transform: translateY(6px); }
+  50% {
+    transform: translateY(0px); }
+  100% {
+    transform: translateY(6px); } }
+
+.shadow {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  animation-name: shadow;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s; }
+
+@keyframes shadow {
+  0% {
+    width: 50%; }
+  50% {
+    width: 52%; }
+  100% {
+    width: 50%; } }
+
+.caps {
+  width: 43%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  animation-name: float;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  cursor: crosshair; }
+
+.croc {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  animation-name: floatv2;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  cursor: crosshair; }
